@@ -7,13 +7,13 @@ while True:
     while True:
         if game.player_move() == 0:
             print('============================')
-            print('    L         O         H   ')
+            print('        D E F E A T         ')
             print('============================')
             print(game.field.print_field(hide_mines=False))
             break
         if game.check_player_won():
             print('============================')
-            print(' M    U    J    E     E   K ')
+            print('        W I C T O R Y       ')
             print('============================')
             print(game.field.print_field(hide_mines=False))
             break

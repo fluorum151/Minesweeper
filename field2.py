@@ -96,17 +96,3 @@ class Field:
 
         self.field_dict[Coord(x, y)] = str(mines)
         return Field.EMPTY_CELL
-
-
-# field = Field(10, 10, 10)
-# field.create_field()
-# field.set_mines()
-# field.print_field(False)
-# for x in range(10):
-#     for y in range(10):
-#         try:
-#             field.annotate(x, y)
-#             # field.print_field(False)
-#         except:
-#             pass
-# field.print_field(False)
